@@ -33,5 +33,5 @@ end
 
 def start_with_B(words)
   words = [boats, birds, tree].select {|word| word.first_letter}
-  word.first_letter == B 
+  word == B 
   words.select
