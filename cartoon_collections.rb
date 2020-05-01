@@ -1,9 +1,12 @@
 #Function prints out each name in numbered (index) order starting at 1
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |name, index|
-    if index < dwarves.length 
-    puts "#{index + 1} #{name}" #returns indexed list of names starting at 1
+    if index < dwarves.length
+      puts "#{index + 1} #{name}" #returns indexed list of names starting at 1
   end
+
+
+end
 end
 
 #Function to collect (return) new array with first letter capitalized and ! added
