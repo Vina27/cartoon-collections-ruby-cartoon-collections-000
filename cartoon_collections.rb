@@ -1,6 +1,6 @@
 #Function prints out each name in numbered (index) order starting at 1
 def roll_call_dwarves(dwarves)
-  dwarves.each_with_index do |name, index| #calls block with two arguments 
+  dwarves.each_with_index do |name, index| #calls block with two arguments
     puts "#{index + 1} #{name}"
   end
 end
