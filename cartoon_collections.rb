@@ -21,7 +21,7 @@ def long_planeteer_calls(calls)# code an argument here
 end
 
 #Function .finds 1st string that includes cheese in the array
-#find locates and returns the first element in the array that matches  the condition specified
+#find locates and returns the first element in the array that matches the specifed condition
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
