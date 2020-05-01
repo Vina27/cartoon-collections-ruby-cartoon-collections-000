@@ -1,4 +1,4 @@
-#Function prints out each name in numbered order starting at 1
+#Function prints out each name in numbered (index) order starting at 1
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |name, index|
     puts "#{index + 1} #{name}"
@@ -24,7 +24,7 @@ end
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  #Function finds first string that includes cheese in the array 
+  #Function finds first string that includes cheese in the array
   cheese.find do |cheese|
   #function returns true if the given string contains the given string or nil
   cheese_types.include?(cheese)
