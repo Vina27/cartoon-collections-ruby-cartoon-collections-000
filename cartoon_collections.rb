@@ -30,3 +30,8 @@ def find_the_cheese(cheese)# code an argument here
   cheese_types.include?(cheese)
  end
 end
+
+def start_with_B(words)
+  words = [boats, birds, tree].select {|word| word.first_letter}
+  word.first_letter == B 
+  words.select
