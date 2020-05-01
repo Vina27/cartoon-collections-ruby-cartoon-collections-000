@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)# code an argument here
   end
 end
 
-#Function #find 1st string that includes cheese in the array 
+#Function .finds 1st string that includes cheese in the array 
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
