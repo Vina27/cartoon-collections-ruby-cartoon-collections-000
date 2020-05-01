@@ -33,5 +33,4 @@ end
 
 def start_with_B(words)
   words.select {|word| word.first_letter == "B"}
-  word == B
-  words.select
+end
