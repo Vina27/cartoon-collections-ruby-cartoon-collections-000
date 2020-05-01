@@ -24,7 +24,7 @@ end
 #find locates and returns the first element in the array that matches the specifed condition
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert", "swiss"]
   cheese.find do |cheese|
   #function returns true if the given string contains the given string (cheese)
   cheese_types.include?(cheese)
