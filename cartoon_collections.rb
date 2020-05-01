@@ -32,6 +32,6 @@ def find_the_cheese(cheese)# code an argument here
 end
 
 def start_with_B(words)
-  words = [boats, birds, tree].select {|word| word.first_letter}
-  word == B 
+  words.select {|word| word.first_letter == "B"}
+  word == B
   words.select
